@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.syp.startservice.MainActivity">
+
+    <TextView
+        android:id="@+id/outPutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count 0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/start_service" />
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_service" />
+
+    <Button
+        android:id="@+id/btnSetServiceCountTo100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_service_count_to_100"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/up_down_different" />
+
+    <Button
+        android:id="@+id/btnBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/bind_service" />
+
+    <Button
+        android:id="@+id/btnUnbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unbind_service" />
+
+    <Button
+        android:id="@+id/btnSetCountTo100ViaBinder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过绑定器将count设置为100" />
+
+    <Button
+        android:id="@+id/btnGetCountFromServiceViaBinder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_count_from_service_via_binder" />
+</LinearLayout>
