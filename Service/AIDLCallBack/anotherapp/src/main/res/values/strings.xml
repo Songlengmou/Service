@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnotherApp</string>
+    <string name="start_service">启动服务</string>
+    <string name="stop_service">停止服务</string>
+    <string name="register_remote_listener">注冊远程侦听器</string>
+    <string name="un_register_remote_listener">注销远程侦听器</string>
+</resources>
